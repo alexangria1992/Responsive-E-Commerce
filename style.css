@@ -133,7 +133,7 @@ p
 
 .small-container 
 {
-    /* background: pink; */
+    background: pink;
     max-width: 1080px;
     margin: auto;
     padding-left: 25px;
