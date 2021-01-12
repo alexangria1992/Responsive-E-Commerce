@@ -55,7 +55,7 @@ p
 .row 
 {
     display: flex;
-    background: blue;
+    /* background: blue; */
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
@@ -63,7 +63,7 @@ p
 
 .col-2 
 {
-    background: rgb(255, 187, 0);
+    /* background: rgb(255, 187, 0); */
     flex-basis: 50%;
     min-width: 300px;
 }
@@ -83,7 +83,7 @@ p
 
 .test-1 
 {
-    background: green;
+    /* background: green; */
 }
 
 .btn 
@@ -112,4 +112,30 @@ p
 {
     margin-top: 70px;
 
+}
+
+.categories 
+{
+    margin: 70px 0;
+}
+
+.col-3
+{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img 
+{
+    width: 100%;
+}
+
+.small-container 
+{
+    background: pink;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
 }
