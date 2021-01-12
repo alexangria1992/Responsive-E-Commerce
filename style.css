@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body 
+{
+    font-family: 'Poppins', sans-serif;
+}
 .navbar
 {
     display: flex;
@@ -39,7 +43,6 @@ a
 .container 
 {
     max-width: 1200px;
-    background: red;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -81,4 +84,32 @@ p
 .test-1 
 {
     background: green;
+}
+
+.btn 
+{
+    display: inline-block;
+    background: #f1607d;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+
+}
+
+.btn:hover 
+{
+    
+    background: rgba(160, 55, 55, 0.856);;
+}
+
+.header 
+{
+    background: radial-gradient(#ffffff , #faadbd);
+}
+
+.header .row 
+{
+    margin-top: 70px;
+
 }
