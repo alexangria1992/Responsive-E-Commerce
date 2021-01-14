@@ -419,3 +419,22 @@ ul
         flex-basis: 100%;
     }
 }
+
+/* Products Styling */
+
+.row-2 
+{
+    justify-content: space-between;
+
+}
+
+select
+{
+    border: 1px solid coral;
+    padding: 5px;
+}
+
+select:focus 
+{
+    outline: none;
+}
