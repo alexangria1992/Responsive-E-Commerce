@@ -360,3 +360,62 @@ ul
 {
     text-align: center;
 }
+
+.menu-icon
+{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+@media only screen and (max-width: 800px)
+{
+    nav ul 
+    {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333333;
+        opacity: 0.8;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.6s;
+
+    }
+
+    nav ul li 
+
+    {
+        display: block; 
+        margin-bottom: 10px; 
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+
+    nav ul li a 
+    {
+        color: whitesmoke;
+        cursor: pointer;
+    }
+
+    .menu-icon 
+    {
+        display: block;
+        cursor: pointer;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px)
+{
+    .row 
+    {
+        text-align: center;
+    }
+
+    .col-2, .col-3, .col-4
+    {
+        flex-basis: 100%;
+    }
+}
